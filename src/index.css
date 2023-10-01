@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+
+form {
+  padding: 10px;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+form #submit {
+  padding: 5px;
+}
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.team {
+  margin: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: solid 2px;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.team #header {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: solid 1px;
+}

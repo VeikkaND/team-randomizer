@@ -51,15 +51,15 @@ function App() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} >
         <input type='file' name='file'></input>
         <br></br>
         number of teams: <input name='numOfTeams'></input>
         <br></br>
-        <button type='submit'>randomize</button>
+        <button type='submit' id='submit'>randomize</button>
       </form>
-      <h3>teams</h3>
-      <div>
+      <h3>Teams</h3>
+      <div className='teams'>
         {teams.length > 0 &&
           teams.map((team) => 
             <Team members={team} key={team}></Team>
