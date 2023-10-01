@@ -58,7 +58,7 @@ function App() {
         <br></br>
         <button type='submit' id='submit'>randomize</button>
       </form>
-      <h3>Teams</h3>
+      <h3>Teams:</h3>
       <div className='teams'>
         {teams.length > 0 &&
           teams.map((team) => 
